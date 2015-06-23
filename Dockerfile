@@ -27,7 +27,7 @@ RUN cd /tmp;                                                               \
     cd; rm -rf /tmp/httpd-*
 
 ADD www /www
-
+ 
 EXPOSE 8080
 CMD    [ "apachectl", \
          "-d", "/usr/local", \
